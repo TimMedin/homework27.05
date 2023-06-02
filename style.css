@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.order {
+    width: 1440px;
+    height: 510px;
+    background: url(backround-img.png);
+}
+
+.order-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-heading {
+    width: 130px;
+    height: 64px;
+    padding-top: 21px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.order-input-one {
+    box-sizing: border-box;
+    width: 690px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #959595;
+    margin-top: 33px;
+    margin-bottom: 19px;
+}
+
+.order-input {
+    box-sizing: border-box;
+    width: 580px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-bottom: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #959595;
+}
+
+.order-btn {
+    width: 248px;
+    height: 68px;
+    background: #8E32C6;
+    border-radius: 16px;
+    border: none;
+    /* Order my Nike */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.input-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 808px;
+    color: #8D8D8D;
+    top: 123px;
+    opacity: 0.5;
+    border-radius: 50px;
+    transform: 250ms;
+}
+
+.order-btn:hover {
+    background-color: #6f00cc;
+}
